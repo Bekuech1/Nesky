@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Contact = () => {
+const Contact = (prop) => {
   return (
-        <div className='grid gap-y-4 items-center text-center'>
-            <h3 className='text-2xl text-blue-green uppercase font-bold'>contact me</h3>
-            <section className='flex gap-x-14 w-fit mx-auto'>
+        <div className='grid gap-y-4 items-center'>
+            <h3 className='text-2xl text-blue-green uppercase font-bold'>{prop.contact}</h3>
+            <section className='flex gap-x-14 w-fit'>
               <a href="" className='m-auto' >
                   <img src="icons/mail.svg" alt="" />
               </a>

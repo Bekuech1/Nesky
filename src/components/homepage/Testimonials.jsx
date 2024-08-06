@@ -30,7 +30,7 @@ export const TestimonialsCard = (props) => {
             <div className='p-[1px] gradient h-fit w-fit'>
                 <div className='h-fit py-[52px] px-8 rounded-[32px] grid gap-8 text-center w-fit bg-black m-auto'>
                     <img src="images/testimonial.png" alt="" className='mx-auto ' />
-                    <p className='text-sm font-medium text-white w-[345px]'>{props.remark}</p>
+                    <p className='text-sm font-medium text-white w-[240px]'>{props.remark}</p>
                     <p className='text-sm font-medium text-[#ffe66d]'>{props.position}</p>
                 </div>
             </div>
