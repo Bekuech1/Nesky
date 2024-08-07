@@ -26,7 +26,8 @@ const About = () => {
             </AboutText>
             <AboutImage>
                 <img src="images/me4.png" alt="" className='my-auto'/>
-                <div className='h-[581px] flex'>
+                <div className='gap-8 grid'>
+                    <img src="images/me14.png" alt="" className='mt-auto w-[247px] h-[312px]' />
                     <img src="images/me5.png" alt="" className='mt-auto' />
                 </div>
             </AboutImage>
