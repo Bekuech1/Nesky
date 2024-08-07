@@ -11,7 +11,8 @@ export default {
         'blue-green' : 'rgba(78, 205, 196, 1)',
       },
       fontFamily: {
-        'Monoton' :['Monoton']
+        'Monoton' :['Monoton'],
+        'Manrope' :['Manrope']
       },
     },
   },

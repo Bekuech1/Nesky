@@ -1,26 +1,28 @@
-import React from 'react'
 import './App.css'
-import HeroSection from './components/homepage/HeroSection'
-import Work from './components/homepage/Work'
-import About from './components/homepage/About'
-import Testimonials from './components/homepage/Testimonials'
-import Footer from './components/layout-components/Footer'
-import Navbar from './components/layout-components/Navbar'
-import Experience from './components/homepage/Experience'
+import { 
+  createBrowserRouter, 
+  createRoutesFromElements, 
+  Route, 
+  RouterProvider 
+} from 'react-router-dom'
+import Home from './pages/Home'
+import Igodo from './pages/Igodo'
+import MainLayout from './layouts/MainLayout';
+
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+      <Route path='/' element={ <MainLayout/> } >
+          <Route index element={ <Home/> } />
+      </Route>
+  )
+);
+
 
 const App = () => {
   return (
-    <>
-
-    <Navbar/>
-    <HeroSection />
-    <Work/>
-    <About/>
-    <Experience/>
-    <Testimonials/>
-    <Footer/>
-
-    </>
+    <RouterProvider router={router}/>
   )
 }
 

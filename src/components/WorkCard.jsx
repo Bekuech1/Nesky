@@ -1,5 +1,5 @@
 import React from 'react'
-import GlassBtn from './homepage/GlassBtn'
+import GlassBtn from './GlassBtn'
 
 const WorkCard = ( {src, title, content, style} ) => {
   return (
@@ -14,7 +14,7 @@ const WorkCard = ( {src, title, content, style} ) => {
             </div>
             <div className='flex justify-between text-[#E3E4E6]'>
                 <h6 className='text-[18px] font-light capitalize my-auto'>website design</h6>
-                <GlassBtn text='view live link'/>
+                <GlassBtn text='view'/>
             </div>
         </section>
     </div>

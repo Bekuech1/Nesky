@@ -8,9 +8,7 @@
 }
 
 .glass-btn{
-    background: conic-gradient(from 300.85deg at 99.46% -0.68%, rgba(255, 255, 255, 0) 0deg, rgba(255, 255, 255, 0.596875) 73.13deg, rgba(255, 255, 255, 0) 360deg);
-    border: 1px solid;
-    border-image-source: linear-gradient(128.11deg, rgba(250, 250, 250, 0.55) 2.61%, rgba(227, 228, 230, 0.11) 87.84%);
+    background: conic-gradient(from 211.85deg at 97.46% -25.68%, rgba(255, 255, 255, 0) 0deg, rgba(255, 255, 255, 0.796875) 73.13deg, rgba(255, 255, 255, 0) 360deg);
 }
 
 .active-work{
@@ -36,15 +34,10 @@
     background: linear-gradient(180deg, #201A2B 0%, #252338 100%);
 }
 
-
-.glass-btn{
-    background: conic-gradient(from 300.85deg at 99.46% -0.68%, rgba(255, 255, 255, 0) 0deg, rgba(255, 255, 255, 0.596875) 73.13deg, rgba(255, 255, 255, 0) 360deg);
-}
-
-.glass-div{
+/* .glass-div{
     border-radius: 100%;
     background: linear-gradient(128.11deg, rgba(250, 250, 250, 0.55) 2.61%, rgba(227, 228, 230, 0.11) 87.84%);
-}
+} */
 
 .gradient{
     background: linear-gradient(102.03deg, #BC3CD8 -1.85%, #FF6B6B 95.68%);   

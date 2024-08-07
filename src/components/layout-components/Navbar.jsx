@@ -9,7 +9,7 @@ const Navbar = () => {
         <a className='text-sm font-medium text-text-color' href="#portfolio">CV</a>
         <a className='text-sm font-medium text-text-color'  href="#work">work</a>
         <a className='text-sm font-medium text-text-color' href="#about">about</a>
-        <button className='rounded-lg border border-1 px-4 py-2 glass-btn'>
+        <button className='rounded-lg px-4 py-2 glass-btn'>
           <a href="#contact" className='text-sm font-medium text-text-color'>contact me</a>
         </button>
       </div>

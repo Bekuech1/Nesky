@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from './Contact'
-import GlassBtn from './GlassBtn'
+import GlassBtn from '../GlassBtn'
 
 const HeroSection = () => {
   return (
