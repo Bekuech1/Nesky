@@ -3,7 +3,7 @@ import Contact from '../homepage/Contact'
 
 const Footer = () => {
   return (
-    <footer className='text-white bg-black pb-8'>
+    <footer className='text-white bg-black pb-8' id='footer'>
         <div className='grid m-auto w-fit gap-10 text-center'>
             <div className='text-center grid gap-10'>
                 <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>get inspired</h3>

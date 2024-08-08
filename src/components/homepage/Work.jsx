@@ -3,22 +3,40 @@ import Contact from './Contact'
 import WorkCard from '../WorkCard'
 import GlassBtn from '../GlassBtn'
 
+import { useNavigate } from 'react-router-dom'
+
+
 const Work = () => {
+
+  const navigate = useNavigate();
+
+  const handleIgodo = () => {
+    navigate('/igodo')
+  };
+
+
   return (
-    <div className='work px-[110] py-10 bg-black'>
+    <div className='work px-[110] py-10 bg-black' id='work'>
       <div className='w-fit mx-auto grid gap-12'>
           <div className='justify-between flex w-full'>
               <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>my work</h3>
-              <GlassBtn text='view all'/>
+              <a href="https://www.behance.net/newmanogbo" target='_blank'>
+                  <GlassBtn text='view all'/>
+              </a>
           </div>
           <div className='grid grid-cols-2 gap-x-6 gap-y-12 w-fit mx-auto'>
-            <WorkCard 
-                title='Igodo Car Detailing Services'
-                content='Case Study: Designing the Igodo Car Detailing Service App'
-                src='images/work1.png'
-                style='work-card1'
-                design='mobile app'
-            />
+            <div
+                onClick={handleIgodo}
+            >
+                <WorkCard 
+                    on
+                    title='Igodo Car Detailing Services'
+                    content='Case Study: Designing the Igodo Car Detailing Service App'
+                    src='images/work1.png'
+                    style='work-card1'
+                    design='mobile app'
+                />
+            </div>
             <WorkCard 
                 title='caretaker'
                 content='a real estate management web app'

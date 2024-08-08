@@ -3,7 +3,7 @@ import GlassBtn from './GlassBtn'
 
 const WorkCard = ( {src, title, content, style, design} ) => {
   return (
-    <div className='workcard grid gap-y-3 w-[526px]'>
+    <div className='workcard grid gap-y-3 w-[526px] cursor-pointer'>
         <div className={`w-[526px] h-[326px] p-6 ${style}`}> 
             <img className='w-[478px] h-[278] rounded-[4px]' src={src} alt=''/>
         </div>
