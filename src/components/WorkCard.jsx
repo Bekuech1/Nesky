@@ -1,7 +1,7 @@
 import React from 'react'
 import GlassBtn from './GlassBtn'
 
-const WorkCard = ( {src, title, content, style} ) => {
+const WorkCard = ( {src, title, content, style, design} ) => {
   return (
     <div className='workcard grid gap-y-3 w-[526px]'>
         <div className={`w-[526px] h-[326px] p-6 ${style}`}> 
@@ -13,7 +13,7 @@ const WorkCard = ( {src, title, content, style} ) => {
                 <p  className='text-base font-semibold capitalize'>{content}</p>
             </div>
             <div className='flex justify-between text-[#E3E4E6]'>
-                <h6 className='text-[18px] font-light capitalize my-auto'>website design</h6>
+                <h6 className='text-[18px] font-light capitalize my-auto'>{design} design</h6>
                 <GlassBtn text='view'/>
             </div>
         </section>

@@ -17,24 +17,28 @@ const Work = () => {
                 content='Case Study: Designing the Igodo Car Detailing Service App'
                 src='images/work1.png'
                 style='work-card1'
+                design='mobile app'
             />
             <WorkCard 
                 title='caretaker'
                 content='a real estate management web app'
                 src='images/work2.png'
                 style='work-card2'
+                design='website'
             />
             <WorkCard 
                 title='real estate template'
                 content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices lorem non feugiat egestas amet.'
                 src='images/work3.png'
                 style='work-card3'
+                design='website'
             />
             <WorkCard 
                 title='caretaker'
                 content='a real estate management web app'
                 src='images/work4.png'
                 style='work-card4'
+                design='website'
             />
           </div>
           <div className='mx-auto'>

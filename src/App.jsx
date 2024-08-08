@@ -15,6 +15,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path='/' element={ <MainLayout/> } >
           <Route index element={ <Home/> } />
+          <Route path='/igodo' element={ <Igodo/> } />
       </Route>
   )
 );
