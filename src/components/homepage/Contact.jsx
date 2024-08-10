@@ -1,52 +1,61 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-const Contact = (prop) => {
+const Contact = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(-1);
 
-    const [isHovered, setIsHovered] = useState(false);
+  const handleMouseEnter = (index) => {
+    setHoveredIndex(index);
+  };
 
-    const handleMouseEnter = () => {
-      setIsHovered(true);
-    };
-  
-    const handleMouseLeave = () => {
-      setIsHovered(false);
-    };
+  const handleMouseLeave = () => {
+    setHoveredIndex(-1);
+  };
+
+  const socialLinks = [
+    {
+      href: 'mailto:newman.ogbo.s@gmail.com?subject=work  Here&body=Hello Newman',
+      normalIcon: 'icons/mail.svg',
+      hoverIcon: 'icons/mail-h.svg',
+    },
+    {
+      href: 'https://www.behance.net/newmanogbo',
+      normalIcon: 'icons/behance.svg',
+      hoverIcon: 'icons/behance-h.svg',
+    },
+    {
+      href: 'https://www.dribbble.com/Nesky',
+      normalIcon: 'icons/dribble.svg',
+      hoverIcon: 'icons/dribble-h.svg',
+    },
+    {
+      href: 'https://www.linkedin.com/in/newman-ogbo-964213250',
+      normalIcon: 'icons/linkedin.svg',
+      hoverIcon: 'icons/linkedin-h.svg',
+    },
+    {
+      href: 'https://wa.me/+2349028260161?text=Hello%20Newman',
+      normalIcon: 'icons/call.svg',
+      hoverIcon: 'icons/call-h.svg',
+    },
+  ];
 
   return (
-        <div className='grid gap-y-4 items-center'>
-            <h3 className='text-2xl text-blue-green uppercase font-bold'>{prop.contact}</h3>
-            <section className='flex gap-x-14 w-fit'
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-            >
-              <a href="mailto:newman.ogbo.s@gmail.com?subject=work  Here&body=Hello Newman" target='_blank' className='m-auto' >
-                  <img 
-                        src={isHovered ? 'icons/mail-h.svg' : 'icons/mail.svg'}
-                  />
-              </a>
-              <a href="https://www.behance.net/newmanogbo" target='_blank' className='m-auto' >
-                  <img 
-                        src={isHovered ? 'icons/behance-h.svg' : 'icons/behance.svg'}
-                  />
-              </a>
-              <a href="https://www.dribbble.com/Nesky" target='_blank'  className='m-auto' >
-                  <img 
-                        src={isHovered ? 'icons/dribble-h.svg' : 'icons/dribble.svg'}
-                  />
-              </a>
-              <a href="https://www.linkedin.com/in/newman-ogbo-964213250" target='_blank'  className='m-auto' >
-                  <img 
-                        src={isHovered ? 'icons/linkedin-h.svg' : 'icons/linkedin.svg'}
-                  />                
-              </a>
-              <a href="https://wa.me/+2349028260161?text=Hello%20Newman" target='_blank' className='m-auto' >
-                  <img 
-                        src={isHovered ? 'icons/call-h.svg' : 'icons/call.svg'}
-                  />
-              </a>
-            </section>
-        </div>
-  )
-}
+    <section className="flex gap-x-14 w-fit">
+      {socialLinks.map((link, index) => (
+        <a
+          key={index}
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="m-auto"
+          onMouseEnter={() => handleMouseEnter(index)}
+          onMouseLeave={handleMouseLeave}
+        >
+          <img src={index === hoveredIndex ? link.hoverIcon : link.normalIcon} alt={link.href} />
+        </a>
+      ))}
+    </section>
+  );
+};
 
-export default Contact
+export default Contact;
