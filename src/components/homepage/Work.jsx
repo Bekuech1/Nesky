@@ -20,7 +20,7 @@ const Work = () => {
       <div className='w-fit mx-auto grid gap-12'>
           <div className='justify-between flex w-full'>
               <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>my work</h3>
-              <a href="https://www.behance.net/newmanogbo" target='_blank'>
+              <a href="https://www.dribbble.com/Nesky" target='_blank'>
                   <GlassBtn text='view all'/>
               </a>
           </div>
@@ -35,29 +35,39 @@ const Work = () => {
                     src='images/work1.png'
                     style='work-card1'
                     design='mobile app'
+                    goto='https://www.igodo.net'
                 />
             </div>
-            <WorkCard 
-                title='caretaker'
-                content='a real estate management web app'
-                src='images/work2.png'
-                style='work-card2'
-                design='website'
-            />
-            <WorkCard 
-                title='real estate template'
-                content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices lorem non feugiat egestas amet.'
-                src='images/work3.png'
-                style='work-card3'
-                design='website'
-            />
-            <WorkCard 
-                title='caretaker'
-                content='a real estate management web app'
-                src='images/work4.png'
-                style='work-card4'
-                design='website'
-            />
+            <a href="https://www.usecaretaker.com/" target='_blank'>
+                <WorkCard 
+                    title='caretaker'
+                    content='a real estate management web app'
+                    src='images/work2.png'
+                    style='work-card2'
+                    design='website'
+                    goto='https://www.usecaretaker.com/'
+                />
+            </a>
+            <a href="https://www.venohr.io/" target='_blank'>
+                <WorkCard 
+                    title='venohr'
+                    content='VenoHr is a HR management system where you can manage employees and recruiters can manage their job applicants.'
+                    src='images/work3.png'
+                    style='work-card3'
+                    design='website'
+                    goto='https://www.venohr.io/'
+                />
+            </a>
+            <a href='https://www.rivala.io/' target="_blank" rel="noopener noreferrer">
+                <WorkCard 
+                    title='rivala'
+                    content='Rivala is a platform for hiring talents at a cheaper cost from different countries'
+                    src='images/work4.png'
+                    style='work-card4'
+                    design='website'
+                    goto='https://www.rivala.io/'
+                />
+            </a>
           </div>
           <div className='mx-auto'>
               <Contact />

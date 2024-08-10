@@ -9,7 +9,10 @@
 
 .glass-btn{
     background: conic-gradient(from 250.85deg at 97.46% -25.68%, rgba(255, 255, 255, 0) 0deg, rgba(255, 255, 255, 0.796875) 73.13deg, rgba(255, 255, 255, 0) 360deg);
-    
+}
+
+.glass-gradient{
+    background: linear-gradient(102.03deg, #BC3CD8 -1.85%, #FF6B6B 95.68%);
 }
 
 .active-work{
