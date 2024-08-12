@@ -25,11 +25,11 @@ const CRandD = () => {
                 <ul className='list-disc pl-7 font-medium text-base'>
                     <li>users wanted a quick and simple booking process</li>
                     <li>Real-time notifications and updates were highly desired</li>
-                    <li>Easy access to service history and upcoming appointments was a mus</li>
+                    <li>Easy access to service history and upcoming appointments was a must</li>
                 </ul>
             </div>
         </div>
-        <img src="images/igodo2.png" alt="" className='h-[661px] w-[1300px]'/>
+        <img src="images/igodo2.png" alt="" className='h-[661px] w-[90vw]'/>
     </div>
   )
 }

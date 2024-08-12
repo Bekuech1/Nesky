@@ -11,7 +11,7 @@ const DesignProcess = () => {
                 <li>User Personas: Created to represent the target audience and their needs.</li>
             </ul>
         </div>
-        <img src="images/igodo3.png" alt="" className='w-[1300px]'/>
+        <img src="images/igodo3.png" alt="" className='w-[90vw]'/>
         <div className='grid gap-6'>
             <h5 className='font-semibold text-[32px]'>deign process</h5>
             <p className='font-medium text-base'>2. wireframing and prototyping</p>
@@ -20,7 +20,7 @@ const DesignProcess = () => {
                 <li>Prototypes: Created interactive prototypes to test user flows and interactions.</li>
             </ul>
         </div>
-        <img src="images/igodo4.png" alt="" className='w-[1300px]'/>
+        <img src="images/igodo4.png" alt="" className='w-[90vw]'/>
 
     </div>
   )

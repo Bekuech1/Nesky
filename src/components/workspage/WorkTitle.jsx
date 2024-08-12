@@ -3,7 +3,7 @@ import GlassBtn from '../GlassBtn'
 
 const WorkTitle = () => {
   return (
-    <div className='justify-between flex'>
+    <div className='justify-between flex w-auto'>
         <div className='grid gap-4'>
             <h1 className='text-[64px] font-semibold'>igodo car detailing services</h1>
             <p className='text-base font-medium'>Case Study: Designing the Igodo Car Detailing Service App</p>
