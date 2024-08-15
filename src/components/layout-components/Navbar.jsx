@@ -98,7 +98,7 @@ const Navbar = () => {
           className="fixed inset-0 bg-black bg-opacity-50 z-50 "
           onClick={handleCloseMenu}
         >
-          <div className="absolute right-0 top-0 h-full w-1/2 bg-black p-8 shadow-black">
+          <div className="absolute right-0 top-0 h-full w-2/3 bg-black p-8 shadow-black">
             <button onClick={() => setShowMenu(false)}>
               <img src="icons/close.svg" alt="" />
             </button>
