@@ -104,7 +104,7 @@ const Navbar = () => {
             </button>
             <div className="flex flex-col gap-4 mt-4">
             <a
-          className="m-auto text-sm font-medium text-text-color hover:bg-clip-text hover:text-transparent hover:font-bold hover:bg-gradient-to-r hover:from-[#BC3CD8] hover:to-[#C54B8C]"
+          className="m-auto text-3xl font-bold text-text-color hover:bg-clip-text hover:text-transparent hover:font-bold hover:bg-gradient-to-r hover:from-[#BC3CD8] hover:to-[#C54B8C]"
           href="document/Resume.docx"
           download
           id="1"
@@ -117,7 +117,7 @@ const Navbar = () => {
           )}
         </a>
         <a
-          className="m-auto text-sm font-medium text-text-color hover:bg-clip-text hover:text-transparent hover:font-bold hover:bg-gradient-to-r hover:from-[#BC3CD8] hover:to-[#df67a7]"
+          className="m-auto text-3xl font-bold text-text-color hover:bg-clip-text hover:text-transparent hover:font-bold hover:bg-gradient-to-r hover:from-[#BC3CD8] hover:to-[#df67a7]"
           href="#work"
           id="2"
           onMouseEnter={() => handleMouseIn("2")}
@@ -129,7 +129,7 @@ const Navbar = () => {
           )}
         </a>
         <a
-          className="m-auto text-sm font-medium text-text-color hover:bg-clip-text hover:text-transparent hover:font-bold hover:bg-gradient-to-r hover:from-[#BC3CD8] hover:to-[#C54B8C]"
+          className="m-auto text-3xl font-bold text-text-color hover:bg-clip-text hover:text-transparent hover:font-bold hover:bg-gradient-to-r hover:from-[#BC3CD8] hover:to-[#C54B8C]"
           href="#about"
           id="3"
           onMouseEnter={() => handleMouseIn("3")}
@@ -142,7 +142,7 @@ const Navbar = () => {
         </a>
         <a
           href="#footer"
-          className={`w-fit m-auto rounded-lg px-4 py-2 glass-btn text-sm font-medium text-text-color ${
+          className={`w-fit m-auto rounded-lg px-4 py-2 glass-btn text-3xl font-bold text-text-color ${
             isHovered ? "glass-gradient px-7 animate-element" : "glass-btn px-4"
           } transition-all duration-300 ease-in`}
           onMouseEnter={handleMouseEnter}

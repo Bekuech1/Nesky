@@ -8,10 +8,10 @@ const About = () => {
         </div>
         <AboutContainer>
             <AboutImage>
-                <img src="images/me1.png" alt="" className='my-auto'/> 
+                <img src="images/me1.png" alt="" className='my-auto md:w-[247px] w-[187px]'/> 
                 <div className='grid gap-8 w-fit h-fit items-center'>
-                    <img src="images/me2.png" alt="" />
-                    <img src="images/me3.png" alt="" />
+                    <img src="images/me2.png" alt="" className='md:w-[247px] w-[187px]'/>
+                    <img src="images/me3.png" alt="" className='md:w-[247px] w-[187px]'/>
                 </div>
             </AboutImage>
             <AboutText>
@@ -25,23 +25,23 @@ const About = () => {
                 <p className='text-base font-semibold'>I firmly believe in the power of design to connect, engage, and inspire. It's not just about creating beautiful visuals; it's about creating experiences that resonate with people, improve their lives, and tell compelling stories.</p>
             </AboutText>
             <AboutImage>
-                <img src="images/me4.png" alt="" className='my-auto'/>
+                <img src="images/me4.png" alt="" className='my-auto md:w-[247px] w-[187px]'/>
                 <div className='gap-8 grid'>
-                    <img src="images/me14.png" alt="" className='mt-auto w-[247px] h-[312px]' />
-                    <img src="images/me5.png" alt="" className='mt-auto' />
+                    <img src="images/me14.png" alt="" className='mt-auto w-[186px] h-[234px] md:w-[247px] md:h-[312px]' />
+                    <img src="images/me5.png" alt="" className='mt-auto md:w-[247px] w-[187px]' />
                 </div>
             </AboutImage>
         </AboutContainer>
         <AboutContainer>
             <AboutImage>
                 <div className='m-auto grid gap-8'>
-                    <img src="images/me6.png" alt="" />
-                    <img src="images/me7.png" alt="" />
+                    <img src="images/me6.png" alt="" className='md:w-[247px] w-[187px]'/>
+                    <img src="images/me7.png" alt="" className='md:w-[247px] w-[187px]'/>
                 </div>
                 <div className='grid gap-8'>
-                    <img src="images/me8.png" alt="" />
-                    <img src="images/me9.png" alt="" />
-                    <img src="images/me10.png" alt="" />
+                    <img src="images/me8.png" alt="" className='md:w-[247px] w-[187px]'/>
+                    <img src="images/me9.png" alt="" className='md:w-[247px] w-[187px]'/>
+                    <img src="images/me10.png" alt="" className='md:w-[247px] w-[187px]'/>
                 </div>
             </AboutImage>
             <AboutText>
@@ -55,10 +55,10 @@ const About = () => {
                 <p className='text-base font-semibold'>As an artist, I find inspiration in the everyday and aim to translate that into visually appealing creations. My artistic journey involves experimenting with various mediums, from digital to traditional art, exploring themes that captivate the senses.</p>
             </AboutText>
             <AboutImage>
-                <img src="images/me11.png" alt="" className='my-auto' />
+                <img src="images/me11.png" alt="" className='my-auto md:w-[247px] w-[187px]' />
                 <div className='grid gap-8'>
-                    <img src="images/me12.png" alt="" />
-                    <img src="images/me13.png" alt="" />
+                    <img src="images/me12.png" alt="" className='md:w-[247px] w-[187px]'/>
+                    <img src="images/me13.png" alt="" className='md:w-[247px] w-[187px]'/>
                 </div>
             </AboutImage>
         </AboutContainer>
@@ -68,7 +68,7 @@ const About = () => {
 
 const AboutText = ({children}) => {
   return (
-    <div className='w-[526px] grid gap-3 text-white h-fit my-auto'>
+    <div className='w-[400px] md:w-[526px] grid gap-3 text-white h-fit my-auto'>
         {children}
     </div>
   )
