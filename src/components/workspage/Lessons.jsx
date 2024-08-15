@@ -2,7 +2,7 @@ import React from 'react'
 
 const Lessons = () => {
   return (
-        <div className='grid gap-6'>
+        <div className=' w-screen grid gap-6'>
             <h5 className='font-semibold text-[32px]'>lessons learned</h5>
             <ul className='list-disc pl-7 font-medium text-base'>
                 <li>User Feedback: Continuous user feedback is crucial for iterative improvement.</li>

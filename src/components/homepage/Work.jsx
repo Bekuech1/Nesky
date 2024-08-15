@@ -16,7 +16,7 @@ const Work = () => {
 
 
   return (
-    <div className='work px-[110] py-10 bg-black' id='work'>
+    <div className='work px-[110] py-10 bg-black  w-screen' id='work'>
       <div className='w-fit mx-auto grid gap-12'>
           <div className='justify-between flex w-full'>
               <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>my work</h3>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CRandD = () => {
   return (
-    <div className='grid gap-6'>
+    <div className='grid gap-6 w-screen'>
         <div className='grid gap-6'>
             <h5 className='font-semibold text-[32px]'>challenge</h5>
             <p className='font-medium text-base'>the primary challenges were:</p>

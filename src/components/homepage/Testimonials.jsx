@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='bg-black grid gap-10 py-10'> 
+    <div className='bg-black grid gap-10 py-10 w-screen'> 
         <div className='mx-auto w-fit text-center'>
             <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>testimonials</h3>
         </div>
