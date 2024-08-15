@@ -51,4 +51,14 @@
   
 .custom-scrollbar::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
-  }
+}
+
+
+
+@media (max-width: 800px) {
+
+.flexs{
+    display: grid;
+}
+
+}

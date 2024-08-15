@@ -24,7 +24,7 @@ const Work = () => {
                   <GlassBtn text='view all'/>
               </a>
           </div>
-          <div className='grid grid-cols-2 gap-x-6 gap-y-12 w-fit mx-auto'>
+          <div className='grid grid-cols-1 gap-6 gap-y-12 w-fit mx-auto md:grid md:grid-cols-2'>
             <div
                 onClick={handleIgodo}
             >
@@ -38,7 +38,7 @@ const Work = () => {
                     goto='https://www.igodo.net'
                 />
             </div>
-            <a href="https://www.usecaretaker.com/" target='_blank'>
+            <a href="https://www.usecaretaker.com/" target='_blank' rel="noopener noreferrer">
                 <WorkCard 
                     title='caretaker'
                     content='a real estate management web app'
@@ -48,7 +48,7 @@ const Work = () => {
                     goto='https://www.usecaretaker.com/'
                 />
             </a>
-            <a href="https://www.venohr.io/" target='_blank'>
+            <a href="https://www.venohr.io/" target='_blank' rel="noopener noreferrer">
                 <WorkCard 
                     title='venohr'
                     content='VenoHr is a HR management system where you can manage employees and recruiters can manage their job applicants.'
@@ -77,7 +77,7 @@ const Work = () => {
                   <h6 className='text-white text-2xl font-medium text-center'>some of the clients i have</h6>
                   <h6 className='text-white text-2xl font-medium text-center'>designed for</h6>
               </div>
-              <div className='py-4 flex gap-20'>
+              <div className='py-4 grid md:flex gap-20'>
                 <img src="images/logo1.png" alt="" />
                 <img src="images/logo2.png" alt="" />
                 <img src="images/logo3.png" alt="" />

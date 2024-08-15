@@ -2,11 +2,11 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='bg-black grid gap-10 py-10'>
+    <div className='bg-black grid gap-10 py-10'> 
         <div className='mx-auto w-fit text-center'>
             <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>testimonials</h3>
         </div>
-        <section className='flex gap-6 m-auto'>
+        <section className='grid gap-6 m-auto md:flex '>
             <TestimonialsCard
                 remark='Working with Newman has been an absolute pleasure. His ability to transform our vision into stunning designs is unparalleled.'
                 position='caretaker'

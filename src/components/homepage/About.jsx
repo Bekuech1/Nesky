@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='abbout px-[110] py-10 grid gap-10 bg-black' id='about'>
+    <div className='px-[110] py-10 grid gap-10 bg-black' id='about'>
         <div className='mx-auto w-fit text-center'>
             <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>about me</h3>
         </div>
@@ -85,7 +85,7 @@ export const AboutImage = ({children}) => {
 
 export const AboutContainer = ({children}) => {
   return (
-    <div className='flex gap-6 w-fit mx-auto'>
+    <div className='md:flex grid gap-6 w-fit mx-auto'>
         {children}
     </div>
   )
