@@ -5,7 +5,7 @@ import GlassBtn from '../GlassBtn'
 const HeroSection = () => {
   return (
     <div className='bg-black w-screen'>
-          <div className='hero-section gap-y-6 grid h-fit pb-20 bg-black pt-40 w-fit mx-auto fix'>
+          <div className='hero-section gap-y-6 grid h-fit pb-20 bg-black pt-40 w-fit mx-auto'>
               <section className='grid gap-4'>
                 <div className=' text-left'>
                   <h3 className='text-5xl font-normal text-blue-green font-Monoton w-[398px] lg:w-fit'>unleashing creativity</h3>
