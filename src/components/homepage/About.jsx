@@ -68,7 +68,7 @@ const About = () => {
 
 const AboutText = ({children}) => {
   return (
-    <div className='w-[400px] md:w-[526px] grid gap-3 text-white h-fit my-auto'>
+    <div className='w-[390px] md:w-[526px] grid gap-3 text-white h-fit my-auto'>
         {children}
     </div>
   )
@@ -76,7 +76,7 @@ const AboutText = ({children}) => {
 
 export const AboutImage = ({children}) => {
   return (
-    <section className='flex gap-8 w-fit h-fit'>
+    <section className='flex gap-5 md:gap-8 w-fit h-fit'>
         {children}
     </section>
   )
@@ -85,7 +85,7 @@ export const AboutImage = ({children}) => {
 
 export const AboutContainer = ({children}) => {
   return (
-    <div className='md:flex grid gap-6 w-fit mx-auto'>
+    <div className='lg:flex grid gap-6 w-fit mx-auto'>
         {children}
     </div>
   )

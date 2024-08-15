@@ -2,11 +2,11 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div className='bg-black grid gap-10 w-screen overflow-x-auto whitespace-nowrap custom-scrollbar'>
+    <div className='bg-black grid gap-10 w-screen'>
         <div className='mx-auto w-fit text-center'>
             <h3 className='text-[32px] font-normal text-blue-green font-Monoton'>work experience</h3>
         </div>
-        <div className='w-full h-[504px] relative'>
+        <div className='w-full h-[504px] relative overflow-x-auto whitespace-nowrap custom-scrollbar'>
             <div className='bg-[#E6AF2E] h-2 opacity-10 mt-[264px] w-[1550px]'></div>
             <TopExperience/>
             <BottomExperience/>

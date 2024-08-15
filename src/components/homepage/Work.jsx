@@ -24,7 +24,7 @@ const Work = () => {
                   <GlassBtn text='view all'/>
               </a>
           </div>
-          <div className='grid grid-cols-1 gap-6 gap-y-12 w-fit mx-auto md:grid md:grid-cols-2'>
+          <div className='grid grid-cols-1 gap-6 gap-y-12 w-fit mx-auto lg:grid md:grid-cols-2'>
             <div
                 onClick={handleIgodo}
             >
@@ -77,7 +77,7 @@ const Work = () => {
                   <h6 className='text-white text-2xl font-medium text-center'>some of the clients i have</h6>
                   <h6 className='text-white text-2xl font-medium text-center'>designed for</h6>
               </div>
-              <div className='py-4 grid md:flex gap-20 m-auto '>
+              <div className='py-4 grid lg:flex gap-20 m-auto '>
                 <img src="images/logo1.png" alt="" />
                 <img src="images/logo2.png" alt="" />
                 <img src="images/logo3.png" alt="" />
