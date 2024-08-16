@@ -40,7 +40,7 @@ const Contact = () => {
   ];
 
   return (
-    <section className="flex gap-x-14 w-fit m-auto">
+    <section className="flex gap-x-14 w-fit">
       {socialLinks.map((link, index) => (
         <a
           key={index}

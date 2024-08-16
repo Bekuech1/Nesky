@@ -12,7 +12,9 @@ const Overview = () => {
                 </div>
                 <div className='flex lg:grid gap-6 h-fit mt-auto text-right'>
                     <h6 className='text-[18px] font-light capitalize my-auto'>app design</h6>
-                    <GlassBtn text='link to project'/>
+                    <a href='https://www.igodo.net' target="_blank" rel="noopener noreferrer">
+                        <GlassBtn text='link to project'/>
+                    </a>
                 </div>
             </div>
             <div className='grid gap-6'>
