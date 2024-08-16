@@ -2,8 +2,8 @@ import React from 'react'
 
 const DesignProcess = () => {
   return (
-    <div className='grid w-screen gap-6'>
-        <div className='m-auto w-fit'>
+    <div className='grid w-screen gap-6 bg-black text-white'>
+        <div className='m-auto w-[90vw]'>
             <div className='grid gap-6'>
                 <h5 className='font-semibold text-[32px]'>deign process</h5>
                 <p className='font-medium text-base'>1. ideation and conceptualizaion</p>

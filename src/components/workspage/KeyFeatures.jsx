@@ -2,15 +2,15 @@ import React from 'react'
 
 const KeyFeatures = () => {
   return (
-    <div className='grid w-screen gap-6 pb-6'>
-      <div className='m-auto w-fit grid gap-6'>
+    <div className='grid w-screen gap-6 pb-6 bg-black text-white'>
+      <div className='m-auto w-[90vw]] grid gap-6'>
         <h5 className='font-semibold text-[32px]'>key features and screens</h5>
-        <img src="images/igodo5.png" alt="" className='w-[90vw]'/>
-        <img src="images/igodo6.png" alt="" className='w-[90vw]'/>
-        <img src="images/igodo7.png" alt="" className='w-[90vw]'/>
-        <img src="images/igodo8.png" alt="" className='w-[90vw]'/>
-        <img src="images/igodo9.png" alt="" className='w-[90vw]'/>
-        <div className='mt-6 w-fit'>
+        <img src="images/igodo5.png" alt="" className='w-[90vw] m-auto'/>
+        <img src="images/igodo6.png" alt="" className='w-[90vw] m-auto'/>
+        <img src="images/igodo7.png" alt="" className='w-[90vw] m-auto'/>
+        <img src="images/igodo8.png" alt="" className='w-[90vw] m-auto'/>
+        <img src="images/igodo9.png" alt="" className='w-[90vw] m-auto'/>
+        <div className='mt-6 w-[90vw] m-auto'>
             <h5 className='font-semibold text-[32px]'>lessons learned</h5>
             <ul className='list-disc pl-7 font-medium text-base'>
                 <li>User Feedback: Continuous user feedback is crucial for iterative improvement.</li>

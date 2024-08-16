@@ -15,7 +15,7 @@ const WorkCard = ( {src, title, content, style, design, goto} ) => {
 
   return (
     <div className='workcard grid gap-y-3 w-[390px] lg:w-[526px] cursor-pointer '>
-        <div className={`w-[398px] h-[250px] lg:w-[526px] lg:h-[326px] ${style} justify-center items-center grid place-items-center`}> 
+        <div className={`w-[390px] h-[250px] lg:w-[526px] lg:h-[326px] ${style} justify-center items-center grid place-items-center`}> 
             <img className={`rounded-[4px] ${isHovered ? 'scale-x-[1.067] scale-y-[1.116] lg:w-[478px] lg:h-[278px] w-[350px] h-[200px]' : 'scale-x-1 scale-y-1 lg:w-[478px] lg:h-[278px] w-[350px] h-[200px]'}  transition-all duration-300 delay-150`}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}

@@ -24,7 +24,7 @@ const Work = () => {
                   <GlassBtn text='view all'/>
               </a>
           </div>
-          <div className='grid grid-cols-1 gap-6 gap-y-12 w-fit mx-auto lg:grid md:grid-cols-2'>
+          <div className='grid grid-cols-1 gap-6 gap-y-12 w-fit mx-auto lg:grid md:grid-cols-2 '>
             <div
                 onClick={handleIgodo}
             >

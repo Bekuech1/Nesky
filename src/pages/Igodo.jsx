@@ -8,16 +8,13 @@ import KeyFeatures from '../components/workspage/KeyFeatures'
 
 const Igodo = () => {
   return (
-    <div className='bg-black text-[#E3E4E6] px-'>
 
-      <div>
+      <>
           <Overview/>
           <CRandD/>
           <DesignProcess/>
           <KeyFeatures/>
-      </div>
-
-    </div>
+      </>
   )
 }
 

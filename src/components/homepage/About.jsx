@@ -26,7 +26,7 @@ const About = () => {
             </AboutText>
             <AboutImage>
                 <img src="images/me4.png" alt="" className='my-auto md:w-[247px] w-[187px]'/>
-                <div className='gap-8 grid'>
+                <div className='gap-5 md:gap-8 grid'>
                     <img src="images/me14.png" alt="" className='mt-auto w-[186px] h-[234px] md:w-[247px] md:h-[312px]' />
                     <img src="images/me5.png" alt="" className='mt-auto md:w-[247px] w-[187px]' />
                 </div>
@@ -34,11 +34,11 @@ const About = () => {
         </AboutContainer>
         <AboutContainer>
             <AboutImage>
-                <div className='m-auto grid gap-8'>
+                <div className='m-auto grid gap-5 md:gap-8'>
                     <img src="images/me6.png" alt="" className='md:w-[247px] w-[187px]'/>
                     <img src="images/me7.png" alt="" className='md:w-[247px] w-[187px]'/>
                 </div>
-                <div className='grid gap-8'>
+                <div className='grid gap-5 md:gap-8'>
                     <img src="images/me8.png" alt="" className='md:w-[247px] w-[187px]'/>
                     <img src="images/me9.png" alt="" className='md:w-[247px] w-[187px]'/>
                     <img src="images/me10.png" alt="" className='md:w-[247px] w-[187px]'/>
@@ -56,7 +56,7 @@ const About = () => {
             </AboutText>
             <AboutImage>
                 <img src="images/me11.png" alt="" className='my-auto md:w-[247px] w-[187px]' />
-                <div className='grid gap-8'>
+                <div className='grid gap-5 md:gap-8'>
                     <img src="images/me12.png" alt="" className='md:w-[247px] w-[187px]'/>
                     <img src="images/me13.png" alt="" className='md:w-[247px] w-[187px]'/>
                 </div>
